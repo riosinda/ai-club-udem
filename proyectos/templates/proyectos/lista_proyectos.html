@@ -1,0 +1,6 @@
+<h1>Lista de Proyectos de IA</h1>
+<ul>
+{% for p in proyectos %}
+  <li>{{ p.titulo }} — {{ p.autor }} ({{ p.fecha_publicacion }})</li>
+{% endfor %}
+</ul>

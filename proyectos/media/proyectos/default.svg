@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" 
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer black circle -->
+  <circle cx="100" cy="100" r="90" fill="black" />
+
+  <!-- Yellow ring around the center -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#FFD700" stroke-width="5" />
+
+  <!-- Main text "IA" in yellow -->
+  <text x="50%" y="50%" font-size="48" fill="#FFD700" 
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial" font-weight="bold">
+    IA
+  </text>
+
+  <!-- Smaller text "Club" in yellow below -->
+  <text x="50%" y="63%" font-size="20" fill="#FFD700" 
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial">
+    Club
+  </text>
+
+</svg>
