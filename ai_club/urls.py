@@ -17,13 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from proyectos.views import lista_proyectos
+from proyectos.views import home
 from django.conf.urls.static import static
 from django.conf import settings
 from proyectos.autocomplete import AutorAutocomplete
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', lista_proyectos, name='lista_proyectos'),
+    path('home/', home, name='lista_proyectos'),
     path(
         'autor-autocomplete/',
         AutorAutocomplete.as_view(),
